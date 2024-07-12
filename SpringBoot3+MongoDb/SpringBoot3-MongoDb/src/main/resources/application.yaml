@@ -1,1 +1,12 @@
-spring.application.name=SpringBoot3-MongoDb
+spring:
+  application:
+    name: SpringBoot3-MongoDb
+  data:
+    mongodb:
+      username: admin
+      password: admin
+      port: '27017'
+      database: aliboucoding
+      repositories:
+        enabled: 'true'
+      authentication-database: admin
