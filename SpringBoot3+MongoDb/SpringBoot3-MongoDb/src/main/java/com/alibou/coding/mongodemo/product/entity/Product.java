@@ -1,5 +1,5 @@
 package com.alibou.coding.mongodemo.product.entity;
-
+import com.alibou.coding.mongodemo.category.entity.Category;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
@@ -22,4 +22,6 @@ public class Product {
     private String description;
 
     private List<String> tags;
+
+    private Category category;
 }
