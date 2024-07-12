@@ -1,5 +1,6 @@
-package com.alibou.coding.mongodemo.product;
+package com.alibou.coding.mongodemo.product.repository;
 
+import com.alibou.coding.mongodemo.product.entity.Product;
 import org.springframework.data.mongodb.repository.MongoRepository;
 import org.springframework.stereotype.Repository;
 

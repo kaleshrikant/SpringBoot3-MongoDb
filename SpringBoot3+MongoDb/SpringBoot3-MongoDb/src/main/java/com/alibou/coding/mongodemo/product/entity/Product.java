@@ -1,4 +1,4 @@
-package com.alibou.coding.mongodemo.product;
+package com.alibou.coding.mongodemo.product.entity;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
